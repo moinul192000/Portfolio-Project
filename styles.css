@@ -165,6 +165,19 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+.exp {
+  max-width: 800px;
+  padding:15px 100px;
+}
+.exp h2 {
+  text-align: center;
+  color: green;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(140,187,209,1);
+}
+.exp ul{
+  list-style: square;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -202,4 +215,12 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+@media screen and (max-width: 630px) {
+  .exp {
+      padding:5px 20px;
+  }
+  .exp ul {
+    padding: 3px;
+  }
 }
